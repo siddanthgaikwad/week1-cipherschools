@@ -1,5 +1,3 @@
-//print the output in reverse order using array
-
 #include<iostream>
 using namespace std;
 
