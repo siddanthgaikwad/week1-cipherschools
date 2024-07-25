@@ -3,19 +3,20 @@ using namespace std;
 
 int main()
 {
-	//Declare 2 variables and then assign them values of 3,5 and then add them
-	int a=3;
-	int b=5;
+	// variables are declared of int type
+	int a,b,c;    
 	
-//	a=3;
-//	b=5;
-//	int c;
-//	c=a+b;
+	a=3;
+	b=5;
 	
-	cout<<"a+b:"<<endl<<a+b<<endl;
-	cout<<"a+b:";
-	cout<<endl;
-	cout<<a+b;
+	c=a+b;
 	
+	cout<<c<<endl;
+	
+	// a+b is similar to storing value in third variable
+	cout<<a+b<<endl;
+	
+	// here the value in " " is considered constant so it is not altered and printed as it is.
+	cout<<"a+b";
 	return 0;
 }
